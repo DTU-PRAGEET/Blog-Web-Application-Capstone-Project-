@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "./public/form_style.css" rel = "stylesheet">
+    <title>Post Form</title>
+</head>
+<body>
+    <div class = "post_form">
+        <form action = "/create_form" method = "post" enctype="multipart/form-data">
+            <input type = "file" name ="upload_image" required>
+            <input type = "text" name = "upload_text" required>
+            <button type = "submit" value = "submit_create_value" name = "submit_create_name">Upload</button>
+        </form>
+        <form action = "/delete_form" method = "post">
+            <button type = "submit">Delete</button>
+        </form>
+
+        <!-- <form action="/create_form" method="POST" enctype="multipart/form-data">
+            <input type="file" name="create_file_name">
+            <button type="submit">Upload</button>
+        </form> -->
+        
+        
+    </div>    
+</body>
+</html>

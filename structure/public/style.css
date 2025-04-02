@@ -1,0 +1,166 @@
+body{
+    background-color: rgba(144, 3, 144, 0.444);
+    background-image:url('./backgroundIMG.jpg');
+    background-size:cover;
+    background-blend-mode:color-burn;
+    color:rgb(255, 255, 255);
+
+}
+.left{
+    position:fixed;
+    left:0;
+    width:25%;
+    float:left;    
+}
+.right{
+    float:right;
+    width:75%;   
+}
+.options{
+    margin:10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.379);
+}
+
+.post{
+    height:10vh;
+    margin:10px 10px 10px 0;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(0, 0, 0, 0.379);
+}
+.btn{
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-weight: bold;
+    width:10%;
+}
+.log_in{
+    margin-left:80%;
+    /* width:10%; */
+}
+
+
+
+
+
+
+.blog{
+    display:flex;
+    width:75%;
+    margin-left:12.5%;
+    background-color: rgb(133, 109, 211);
+    border:5px solid white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.upload_img{
+    width:50%;
+    height:50%;
+    margin:10px;
+    margin-left: 22.5%;
+}
+.upload_text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog_request{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.blog_btn_item{
+    background: transparent;
+    /* border:none; */
+    color:white;
+    margin:10px;
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog{
+    display:flex;
+    flex-direction: column;
+}
